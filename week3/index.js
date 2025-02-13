@@ -21,7 +21,7 @@ function addPurchaseRecord(name,course){
         price = 1100;
     }
     purchaseRecords.push(purchaseRecord);
-    console.log(purchaseRecords);
+    //console.log(purchaseRecords);
     console.log(`新增購買記錄成功！會員 ${name} 購買 ${course} 堂課，總金額為 ${course*price} 元。`)
 }
 addPurchaseRecord('Bob',3);
@@ -44,7 +44,7 @@ function filterNoPurchaseMember(){
     purchaseRecords.forEach(function(member){
         purchasedMembers.push(member.name);
     });
-    console.log(purchasedMembers);
+    //console.log(purchasedMembers);
     let NoPurchaseMember = members.filter(function(member){
         return purchasedMembers.includes(member)===false;
     })
