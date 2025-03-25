@@ -134,10 +134,10 @@ let h = f + g; //number（false 會轉為 0，0 + 912 = 912）
 
 // 請從以下新增註解，告知上面每行各別是哪些型別
 // a 是 string
-// b 是 ??
-// c 是 number
-// d 是 string('world456')
-// e 是 number
+// b 是 number
+// c 是 string
+// d 是 number
+// e 是 string
 // f 是 boolean
 // g 是 number
 // h 是 number
